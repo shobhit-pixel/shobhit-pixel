@@ -46,28 +46,19 @@
 
 <!-- ===== GITHUB STATS ===== -->
 <div align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api?username=shobhit-pixel&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0A101F&title_color=22D3EE&text_color=F8FAFC&icon_color=A78BFA"
-    >
-    <img
-      width="49%"
-      src="https://github-readme-stats.vercel.app/api?username=shobhit-pixel&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=FFFFFF&title_color=0891B2&text_color=0F172A&icon_color=7C3AED"
-      alt="Shobhit Tripathi GitHub Stats"
-    >
-  </picture>
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=shobhit-pixel&layout=compact&langs_count=8&hide_border=true&bg_color=0A101F&title_color=22D3EE&text_color=F8FAFC"
-    >
-    <img
-      width="49%"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=shobhit-pixel&layout=compact&langs_count=8&hide_border=true&bg_color=FFFFFF&title_color=0891B2&text_color=0F172A"
-      alt="Shobhit Tripathi Top Languages"
-    >
-  </picture>
+
+  <img
+    width="49%"
+    src="https://github-readme-stats-shobhit-pixel.vercel.app/api?username=shobhit-pixel&show_icons=true&include_all_commits=true&hide_border=true"
+    alt="GitHub Stats"
+  >
+
+  <img
+    width="49%"
+    src="https://github-readme-stats-shobhit-pixel.vercel.app/api/top-langs/?username=shobhit-pixel&layout=compact&langs_count=8&hide_border=true"
+    alt="Top Languages"
+  >
+
 </div>
 
 <br>
@@ -76,19 +67,39 @@
 <h2>⚡ Featured Repositories</h2>
 
 <div align="center">
-  <a href="https://github.com/shobhit-pixel/shobhit-pixel">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="https://github-readme-stats.vercel.app/api/pin/?username=shobhit-pixel&repo=shobhit-pixel&hide_border=true&bg_color=0A101F&title_color=22D3EE&text_color=F8FAFC&icon_color=A78BFA"
-      >
-      <img
-        width="49%"
-        src="https://github-readme-stats.vercel.app/api/pin/?username=shobhit-pixel&repo=shobhit-pixel&hide_border=true&bg_color=FFFFFF&title_color=0891B2&text_color=0F172A&icon_color=7C3AED"
-        alt="shobhit-pixel Profile Repository"
-      >
-    </picture>
+
+  <a href="https://github.com/shobhit-pixel/REPO-1">
+    <img
+      width="49%"
+      src="https://github-readme-stats.vercel.app/api/pin/?username=shobhit-pixel&repo=REPO-1&hide_border=true"
+      alt="Repository 1"
+    >
   </a>
+
+  <a href="https://github.com/shobhit-pixel/REPO-2">
+    <img
+      width="49%"
+      src="https://github-readme-stats.vercel.app/api/pin/?username=shobhit-pixel&repo=REPO-2&hide_border=true"
+      alt="Repository 2"
+    >
+  </a>
+
+  <a href="https://github.com/shobhit-pixel/REPO-3">
+    <img
+      width="49%"
+      src="https://github-readme-stats.vercel.app/api/pin/?username=shobhit-pixel&repo=REPO-3&hide_border=true"
+      alt="Repository 3"
+    >
+  </a>
+
+  <a href="https://github.com/shobhit-pixel/REPO-4">
+    <img
+      width="49%"
+      src="https://github-readme-stats.vercel.app/api/pin/?username=shobhit-pixel&repo=REPO-4&hide_border=true"
+      alt="Repository 4"
+    >
+  </a>
+
 </div>
 
 <br>
