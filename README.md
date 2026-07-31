@@ -104,7 +104,25 @@
 
 <br>
 
+<!-- ===== GITHUB ACTIVITY ===== -->
+
+<h2>⚡ Featured Projects</h2>
+
+<div align="center">
+
+<a href="https://github.com/shobhit-pixel">
+  <img
+    src="https://img.shields.io/badge/Explore_All_Projects-0A101F?style=for-the-badge&logo=github&logoColor=22D3EE"
+    alt="Explore Projects"
+  >
+</a>
+
+</div>
+
+<br>
+
 <!-- ===== CONTRIBUTION SNAKE ===== -->
+
 <div align="center">
   <picture>
     <source
@@ -118,12 +136,10 @@
     <img
       width="100%"
       src="https://raw.githubusercontent.com/shobhit-pixel/shobhit-pixel/output/github-contribution-grid-snake.svg"
-      alt="Shobhit Tripathi Contribution Snake"
+      alt="GitHub Contribution Snake"
     >
   </picture>
 </div>
-
-<br>
 
 <!-- ===== SOCIAL LINKS ===== -->
 <div align="center">
