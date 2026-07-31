@@ -2,18 +2,23 @@ name: Generate Snake
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "0 0 * * *"
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
-      - name: Generate snake
+      - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: shobhit-pixel
@@ -21,10 +26,11 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: ./dist
-          force_orphan: true
+          build_dir: dist
+          target_branch: output
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
